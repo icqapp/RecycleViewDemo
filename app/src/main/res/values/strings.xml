@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RecycleViewDemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="dis">前言--本内容包含:\n
+        \t\t\t0:所有界面都已包含该上下拉刷新与加载更多(有些界面初始化时需要预拉),网络加载图片\n
+        \t\t\t1:抽象简写BaseAdapter;\n
+        \t\t\t2:SrollvVew,ListView,ViewPager,GridView重写与嵌套;\n
+        \t\t\t3:自定义RecycleView分割线,MultiItem布局,RecycleView的Touch事件\
+        \t\t\t重写LinearLayoutManager/GridLayoutManager\StaggeredGridLayoutManager进行RecycleView嵌套;\n
+        \t\t\t4:通过RecycleView的adapter进行addHeader和addFooter,remove/additem(Object)等等,自己去看抽象的BaseaDapter来实现;\n
+        \t\t\t5:切换LinearLayoutManager/GridLayoutManager/StaggeredGridLayoutManager三种模式(本文未完,但已给demo地址,自行完善)
+    </string>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.cjj.MaterialRefreshLayout
+        android:id="@+id/mrl_group"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.recycleview.icqapp.recycleviewdemo.listview.CustomScrollView
+            android:id="@+id/sv_contain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:fadingEdge="none"
+            android:fadingEdgeLength="0dp"
+            android:fillViewport="true"
+            android:overScrollMode="never"
+            android:scrollbarStyle="outsideOverlay"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/vp_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="#666666" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="上面为原生ViewPager,下面为自定义ListView" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="#666666" />
+
+                <com.recycleview.icqapp.recycleviewdemo.listview.CustomListView
+                    android:id="@+id/clv_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:footerDividersEnabled="true"
+                    android:headerDividersEnabled="true" />
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#666666"
+                    android:layout_height="0.5dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="下面为自定义GridView" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="#666666" />
+
+                <com.recycleview.icqapp.recycleviewdemo.listview.CustomGridView
+                    android:id="@+id/cgv_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@android:color/holo_red_dark"
+                    android:dividerHeight="1dp"
+                    android:horizontalSpacing="5dp"
+                    android:numColumns="2"
+                    android:verticalSpacing="5dp" />
+            </LinearLayout>
+        </com.recycleview.icqapp.recycleviewdemo.listview.CustomScrollView>
+    </com.cjj.MaterialRefreshLayout>
+</LinearLayout>

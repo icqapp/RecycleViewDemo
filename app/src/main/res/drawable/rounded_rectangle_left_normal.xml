@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+           layer-list中的item是按照顺序从下往上叠加的，即先定义的item在下面，后面的依次往上面叠放
+       -->
+    <!-- 这里定义一个下面带圆角，上面不带圆角的矩形，边框颜色为@color/line_color -->
+    <item >
+        <shape>
+            <corners
+                android:topLeftRadius="@dimen/D_10PX"
+                android:bottomLeftRadius="@dimen/D_10PX" />
+            <stroke android:width="@dimen/D_1PX" android:color="#666666" />
+        </shape>
+    </item>
+    <!--
+        这里定义一个下面带圆角，上面不带圆角的矩形，背景为白色
+        这里设置了android:Left="1px" android:left="1px" android:bottom="1px"属性
+        android:Left="1px"表示该item右边往里面缩了1px
+        android:left="1px"表示该item左边往里面缩了1px
+        android:bottom="1px"表示该item下面往里面缩了1px
+        这样，左、右、下都比原来缩小了1px，这缩小出来的郑刚是上面一个item的边框的左、右、下边框
+        而top没有缩小，所以覆盖了上面一个item的边框的上边框。
+        所以这个item叠加上面一个item之后的效果就是一个只含左、右、下灰色边框，下面带圆角，上面不带圆角的白色背景矩形
+     -->
+    <item android:right="@dimen/D_1PX" android:left="@dimen/D_1PX" android:top="@dimen/D_1PX" android:bottom="@dimen/D_1PX">
+        <shape>
+            <corners
+                android:topLeftRadius="@dimen/D_10PX"
+                android:bottomLeftRadius="@dimen/D_10PX" />
+            <solid android:color="@android:color/white" />
+        </shape>
+    </item>
+
+
+</layer-list>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white">
+
+        <CheckBox
+            android:id="@+id/cbx_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="@dimen/D_20PX"
+            android:layout_marginLeft="@dimen/D_20PX"
+            android:layout_marginTop="@dimen/D_20PX"
+            android:background="@null"
+            android:button="@drawable/shoppingcart_selector_check_bg"
+            android:focusable="false" />
+
+
+        <ImageView
+
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/D_20PX"
+            android:layout_toRightOf="@+id/cbx_group"
+            android:background="@mipmap/ic_shop" />
+
+        <TextView
+            android:id="@+id/tv_shopname_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/D_20PX"
+            android:layout_toRightOf="@+id/imageView2"
+            android:text="商家名称"
+            android:textColor="#003333"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/iv_shoparrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/D_20PX"
+            android:layout_toRightOf="@+id/tv_shopname_group"
+            android:background="@mipmap/ic_arrow" />
+
+        <View
+            android:id="@+id/imageView4"
+            android:layout_width="1dp"
+            android:layout_height="@dimen/D_20PX"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/tv_edit_group"
+            android:background="#cccccc" />
+
+        <TextView
+            android:id="@+id/tv_edit_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/D_20PX"
+            android:layout_marginRight="@dimen/D_20PX"
+            android:text="编辑"
+            android:textColor="#003333"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_childdata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

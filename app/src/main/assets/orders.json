@@ -1,0 +1,192 @@
+[
+    {
+        "pId": 1,
+        "companyName": "公司名称1",
+        "role":1,
+        "status": 1,
+        "total": 45.4,
+        "totalPrice": 100,
+        "fare": 12,
+        "goodses": [
+            {
+                "gId": "1",
+                "imgUrl": "http://images.csdn.net/20160325/20160325091820452.png",
+                "goodsName": "衣服",
+                "spec": "黄色 L码",
+                "price": 12.2,
+                "amount": 2
+            },
+            {
+                "gId": "1",
+                "imgUrl": "http://images.csdn.net/20160325/20160325091820452.png",
+                "goodsName": "衣服",
+                "spec": "黄色 L码",
+                "price": 13.2,
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "pId": 2,
+        "companyName": "公司名称2",
+        "role":2,
+        "status": 3,
+        "total": 45.4,
+        "totalPrice": 100,
+        "fare": 12,
+        "goodses": [
+            {
+                "gId": "1",
+                "imgUrl": "http://images.csdn.net/20160325/20160325091820452.png",
+                "goodsName": "衣服",
+                "spec": "黄色 L码",
+                "price": 15,
+                "amount": 2
+            },
+            {
+                "gId": "1",
+                "imgUrl": "http://images.csdn.net/20160325/20160325091820452.png",
+                "goodsName": "衣服",
+                "spec": "黄色 L码",
+                "price": 166,
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "pId": 3,
+        "companyName": "今年法国和地方规定",
+        "role":3,
+        "status": 4,
+        "total": 45.4,
+        "totalPrice": 100,
+        "fare": 12,
+        "goodses": [
+            {
+                "gId": "1",
+                "imgUrl": "http://images.csdn.net/20160325/20160325091820452.png",
+                "goodsName": "衣服",
+                "spec": "黄色 L码",
+                "price": 18,
+                "amount": 2
+            },
+            {
+                "gId": "1",
+                "imgUrl": "http://images.csdn.net/20160325/20160325091820452.png",
+                "goodsName": "衣服",
+                "spec": "黄色 L码",
+                "price": 1234,
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "pId": 4,
+        "companyName": "今年法国和地方规定",
+        "role":1,
+        "status": 4,
+        "total": 45.4,
+        "totalPrice": 100,
+        "fare": 12,
+        "goodses": [
+            {
+                "gId": "1",
+                "imgUrl": "http://images.csdn.net/20160325/20160325091820452.png",
+                "goodsName": "衣服",
+                "spec": "黄色 L码",
+                "price": 14,
+                "amount": 2
+            },
+            {
+                "gId": "1",
+                "imgUrl": "http://images.csdn.net/20160325/20160325091820452.png",
+                "goodsName": "衣服",
+                "spec": "黄色 L码",
+                "price": 125.2,
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "pId": 5,
+        "companyName": "的双方各得分手",
+        "role":3,
+        "status": 1,
+        "total": 45.4,
+        "totalPrice": 100,
+        "fare": 12,
+        "goodses": [
+            {
+                "gId": "1",
+                "imgUrl": "http://images.csdn.net/20160325/20160325091820452.png",
+                "goodsName": "衣服",
+                "spec": "黄色 L码",
+                "price": 1322,
+                "amount": 2
+            },
+            {
+                "gId": "1",
+                "imgUrl": "http://images.csdn.net/20160325/20160325091820452.png",
+                "goodsName": "衣服",
+                "spec": "黄色 L码",
+                "price": 123.2,
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "pId": 6,
+        "companyName": "的双方各得分手",
+        "role":2,
+        "status":3,
+        "total": 45.4,
+        "totalPrice": 100,
+        "fare": 12,
+        "goodses": [
+            {
+                "gId": "1",
+                "imgUrl": "http://images.csdn.net/20160325/20160325091820452.png",
+                "goodsName": "衣服",
+                "spec": "黄色 L码",
+                "price": 115.2,
+                "amount": 2
+            },
+            {
+                "gId": "1",
+                "imgUrl": "http://images.csdn.net/20160325/20160325091820452.png",
+                "goodsName": "衣服",
+                "spec": "黄色 L码",
+                "price": 154,
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "pId": 7,
+        "companyName": "的双方各得分手",
+        "role":1,
+        "status": 1,
+        "total": 45.4,
+        "totalPrice": 100,
+        "fare": 12,
+        "goodses": [
+            {
+                "gId": "1",
+                "imgUrl": "http://images.csdn.net/20160325/20160325091820452.png",
+                "goodsName": "衣服",
+                "spec": "黄色 L码",
+                "price": 12342,
+                "amount": 2
+            },
+            {
+                "gId": "1",
+                "imgUrl": "http://images.csdn.net/20160325/20160325091820452.png",
+                "goodsName": "衣服",
+                "spec": "黄色 L码",
+                "price": 1232,
+                "amount": 2
+            }
+        ]
+    }
+
+]

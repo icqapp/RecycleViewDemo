@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dis"
+            android:textColor="#CC0000" />
+
+        <Button
+            android:id="@+id/btn_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="普通的listview"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_recycleview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RecycleView包含可设置三种模式"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_includviewgroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="IncludViewGroup多嵌套仿淘宝首页"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_nestrecycleview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NestRecycleView自定义多嵌套recycleview"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_multitypeitem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MultiTypeItem多个item布局(含分割线)"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_swithview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SwithRecycleView仿淘宝产品列表浏览视图(lv和gv)"
+            android:textSize="12sp" />
+
+
+    </LinearLayout>
+</ScrollView>
